@@ -1,0 +1,83 @@
+h1 {
+    background-color: aquamarine;
+    }
+     
+    body {
+    font-family: Arial, sans-serif;
+    }
+    .calculator {
+    width: 80%;
+    margin: 0 auto;
+    }
+    .tabs {
+    display: flex;
+    justify-content: space-between;
+    }
+    .tab {
+    background: lightgray;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    }
+    .tab:hover {
+    background: gray;
+    }
+    .input-area input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    }
+    .results .result {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    }
+    .result .status-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .success .status-icon {
+    background: green;
+    }
+    .pending .status-icon {
+    background: blue;
+    }
+    .error .status-icon {
+    background: red;
+    }
+     
+    
+    
+     
+    .settings-form {
+    justify-content:left;
+    display: flex;
+    flex-direction: column;
+    }
+     
+    input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; 
+    }
+     
+    nav, main {
+    margin: 0 auto;
+    width: 80%;
+    }
+
+    nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    }
