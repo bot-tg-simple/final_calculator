@@ -1,6 +1,6 @@
 Запуск системы
 
-Скопировать содержимое репозитория -> git clone https://github.com/bot-tg-simple/final_calculator/
+Скопировать содержимое репозитория -> git clone https://github.com/bot-tg-simple/final_calculator
 Затем переходим в директорию final_calculator -> cd final_calculator
 Затем подгружаем все нужные библиотеки -> go mod download
 Запускаем главный файл программы -> go run main.go
