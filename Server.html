@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Распределенный Калькулятор</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="calculator">
+<h1>Распределенный калькулятор</h1>
+<div class="tabs">
+    <a href="./index.html"><button class="tab">Калькулятор</button></a>
+    <a href="./idSearch.html"><button class="tab">Поиск по ID</button></a>
+    <a href="./expressions.html"><button class="tab">Выражения</button></a>
+    <a href="./settingCalc.html"><button class="tab">Настройка расчета</button></a>
+    <a href="./Server.html"><button class="tab">Вычислительные ресурсы</button></a>
+    <a href="./workers.html"><button class="tab">Workers</button></a>
+    <a href="./register.html"><button class="tab">Регистрация</button></a>
+    <a href="./login.html"><button class="tab">Войти</button></a>
+    <a href="./tests.html"><button class="tab">Тесты</button></a>
+</div>
+<br>
+</header>
+<main>
+    <div class="input-area">
+        <form id="expressionForm">
+            <button type="submit" style="background-color: green; color: white;">Check</button>
+        </form>
+    </div>
+<section id="computing-resources">
+<article class="result success">
+<span class="status-icon"></span>
+<span class="expression">
+computing server
+<br>
+last ping 2023-31-12:00:01
+<br>
+the number of parallel calculations: 5
+</span>
+</article>
+<article class="result pending">
+<span class="status-icon"></span>
+<span class="expression">
+computing server
+<br>
+last ping 2023-31-12:12:00
+<br>
+attempt to reconnect with the server
+</span>
+</article>
+<article class="result error">
+<span class="status-icon"></span>
+<span class="expression">
+computing server
+<br>
+last ping 2023-31-12:11:45:00
+<br>
+connection to the server is lost: the item will stop displaying after 10 minutes
+</span>
+</article>
+</section>
+</main>
+<script src="./script/server.js"></script>
+</body>
+</html>
