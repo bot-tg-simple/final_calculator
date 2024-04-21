@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Распределенный калькулятор</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calculator">
+<h1>Распределенный калькулятор</h1>
+<div class="tabs">
+<!-- Табы для навигации -->
+<a href="./index.html"><button class="tab">Калькулятор</button></a>
+<a href="./idSearch.html"><button class="tab">Поиск по ID</button></a>
+<a href="./expressions.html"><button class="tab">Выражения</button></a>
+<a href="./settingCalc.html"><button class="tab">Настройка расчета</button></a>
+<a href="./Server.html"><button class="tab">Вычислительные ресурсы</button></a>
+<a href="./workers.html"><button class="tab">Workers</button></a>
+<a href="./register.html"><button class="tab">Регистрация</button></a>
+<a href="./login.html"><button class="tab">Войти</button></a>
+<a href="./tests.html"><button class="tab">Тесты</button></a>
+</div>
+<form class="form">
+    <h2 class="form__title">Авторизация</h2>
+    <div class="form__fields">
+      <label class="form__field">
+        <span class="form__field-title">Логин</span>
+        <input
+        id="login"
+        class="form__field-input"
+        type="text"
+        placeholder="login123"/>
+      </label>
+      <label class="form__field">
+        <span class="form__field-title">Пароль</span>
+        <input 
+        id="password"
+        class="form__field-input"
+        type="password" 
+        placeholder='***********'/>
+      </label>
+    </div>
+  <p class="form__message"></p>
+    <div class="form__actions">
+      <button class="form__submit" type="submit">Войти</button>
+    </div>
+  </form>
+<script src="./script/login.js"></script>
+</body>
+</html>
